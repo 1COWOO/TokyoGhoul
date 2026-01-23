@@ -22,6 +22,7 @@ on rightclick:
         add coarse dirt to {_whyhoe::*}
         add farmland to {_whyhoe::*}
         add dirt path to {_whyhoe::*}
+        add rooted dirt to {_whyhoe::*}
         
         if {_whyhoe::*} contains event-block:
             cancel event
@@ -30,6 +31,12 @@ on rightclick:
             set {_loc} to location 1.5 meters above player
             make 150 of crit at {_loc} with offset vector(1, 0, 0) with extra 0.001
             make 150 of crit at {_loc} with offset vector(0, 0.5, 0.5) with extra 0.0000001
+        else:
+            # 커맨드 ~ ~3 ~와 동일하게 발 위치에서 정확히 3미터 위로 설정
+            set {_loc} to location 1.5 meter in front of player
+            add 1 to y-coord of {_loc}
+            # 0 0 1.5 오프셋을 그대로 적용하여 Z축으로 길게 형성
+            make 150 of crit at {_loc} with offset vector(0, 0, 1.5) with extra 0.00001
 #/particle reddust ~ ~1.5 ~ 1 0 0 0 150
 #/particle reddust ~ ~1.5 ~ 0 0.5 0.5 0 150 (연쇄)
 on leftclick:
@@ -42,4 +49,3 @@ on leftclick:
 on break:
     if name of player's tool is "&4&l도쿄구울 도구":
         cancel event
-
