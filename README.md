@@ -7,10 +7,10 @@
 
 ### 적용법(서버 여는 방법은 아시죠?)
 
-1. [스크립트 깃허브 Releases](https://github.com/SkriptLang/Skript/releases)에서 가장 최신 버전 Skript-xxx.jar을 받아 서버 폴더의 `plugins/` 폴더에 옮겨주세요.
-2. [스크립트 애드온 Skbee](https://modrinth.com/plugin/skbee)를 가장 최신 버전용으로 다운받아 서버 폴더의 `plugins/`폴더에 옮겨주세요.
+1. [스크립트 깃허브 Releases](https://github.com/SkriptLang/Skript/releases)에서 Skript-2.13.2.jar을 받아 서버 폴더의 `plugins/` 폴더에 옮겨주세요.
+2. [스크립트 애드온 Skbee](https://modrinth.com/plugin/skbee)를 3.12.3 버전으로 다운받아 서버 폴더의 `plugins/`폴더에 옮겨주세요.
 3. 서버를 껐다가 다시 시작해주세요.
-4. [현재 이 페이지의 master 브랜치](https://github.com/1cowoo/FireForce/tree/master)의초록색 "Code" 버튼을 누른후 "Download Zip"을 누릅니다.
+4. [현재 이 페이지의 master 브랜치](https://github.com/1cowoo/TokyoGhoul/tree/master)의초록색 "Code" 버튼을 누른후 "Download Zip"을 누릅니다.
 5. 다운로드 받은 압축 파일 압축을 푼 후 나온 폴더인 `TokyoGhoul-master/`안에 있는 모든 파일을 서버 폴더의 `plugins/Skript/scripts` 폴더에 옮겨주세요.
 6. 서버에서 `/sk reload scripts` 명령어를 사용한 후 마음껏 플레이 해주세요!
 
