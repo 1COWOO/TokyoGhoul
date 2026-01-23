@@ -9,8 +9,8 @@
 
 ### 적용법(서버 여는 방법은 아시죠?)
 
-1. [스크립트 깃허브 Releases](https://github.com/SkriptLang/Skript/releases)에서 Skript-2.13.2.jar을 받아 서버 폴더의 `plugins/` 폴더에 옮겨주세요.
-2. [스크립트 애드온 Skbee](https://modrinth.com/plugin/skbee)를 3.12.3 버전으로 다운받아 서버 폴더의 `plugins/`폴더에 옮겨주세요.
+1. [스크립트 깃허브 Releases](https://github.com/SkriptLang/Skript/releases/download/2.13.2/Skript-2.13.2.jar) Skript-2.13.2.jar을 받아 서버 폴더의 `plugins/` 폴더에 옮겨주세요.
+2. [스크립트 애드온 Skbee](https://cdn.modrinth.com/data/a0tlbHZO/versions/flWLHr3O/SkBee-3.12.3.jar) 3.12.3 버전으로 다운받아 서버 폴더의 `plugins/`폴더에 옮겨주세요.
 3. 서버를 껐다가 다시 시작해주세요.
 4. [현재 이 페이지의 master 브랜치](https://github.com/1cowoo/TokyoGhoul/tree/master)의초록색 "Code" 버튼을 누른후 "Download Zip"을 누릅니다.
 5. 다운로드 받은 압축 파일 압축을 푼 후 나온 폴더인 `TokyoGhoul-master/`안에 있는 모든 파일을 서버 폴더의 `plugins/Skript/scripts` 폴더에 옮겨주세요.
