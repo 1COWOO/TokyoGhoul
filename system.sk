@@ -1,0 +1,5 @@
+on load:
+  send "에@흐 이딴걸 또 만들어야 한다니.." to console
+command /tool:
+  trigger:    
+    give 1 of netherite hoe named "&4&l도쿄구울 도구" to player
